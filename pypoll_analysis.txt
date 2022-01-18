@@ -1,0 +1,10 @@
+# Writing output files
+PyPoll = open("output.txt", "w+")
+PyPoll.write("Election Results") 
+PyPoll.write('\n' + str(candidates))
+PyPoll.write('\n' + str(percentage_votes))
+PyPoll.write('\n' + str(total_num_votes))
+PyPoll.write('\n' + "Winner:" + winner)
+    
+
+
